@@ -107,3 +107,8 @@ body{
     float: right;
     margin-right: 200px;
 }
+/* footers */
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}

@@ -165,18 +165,19 @@ footer{
         padding-left: 50px;
         padding-right: 50px;
     }
+    .caption{
+        position: relative;
+        top: 0px;}
     
     .card{
         display: block;
         align-items: center;
         margin-left: 70px;
     }
-    .caption{
-      position: relative;
-      top: 0px;
     
     
-    }
+    
+    
     .more-option{
         margin-right: 30px;
     }
@@ -192,8 +193,8 @@ footer{
         justify-content: space-evenly;
         margin-left: 50px;
     }
-    .nav-list ul{
-        display: block;
+    .nav-list ul li a{
+        display: flex;
     }
     .camera-container{
         display: block;

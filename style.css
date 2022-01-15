@@ -112,3 +112,20 @@ footer{
     background-color: whitesmoke;
     text-align: center;
 }
+/* media quearry */
+@media only screen and (max-width:688px) {
+    .nav-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+    .nav-list ul{
+        display: block;
+    }
+    .camera-container{
+        display: block;
+        margin: 20px auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
